@@ -19,5 +19,14 @@
     "skipLibCheck": true,
     "strict": true,
     "strictPropertyInitialization": false
-  }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/nestar-api/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/nestar-batch/tsconfig.app.json"
+    }
+  ]
 }
