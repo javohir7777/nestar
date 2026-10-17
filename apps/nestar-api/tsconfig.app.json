@@ -1,10 +1,10 @@
 {
-  "extends": "../../tsconfig.json",
-  "compilerOptions": {
-    "declaration": false,
-    "rootDir": "../..",
-    "outDir": "../../dist/apps/nestar-api"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"declaration": false,
+		"rootDir": "../..",
+		"outDir": "../../dist/apps/nestar-api"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
 }
