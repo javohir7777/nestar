@@ -4,7 +4,7 @@
 	"sourceRoot": "apps/nestar-api/src",
 	"compilerOptions": {
 		"deleteOutDir": true,
-		"builder": "tsc",
+		"webpack": true,
 		"tsConfigPath": "apps/nestar-api/tsconfig.app.json"
 	},
 	"monorepo": true,
